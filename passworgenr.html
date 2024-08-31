@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="passworgenr.js"></script>
+    <link rel="stylesheet" href="passworgenr.css">
+</head>
+<body>
+    <h2>Password Generator</h2>
+    <label for="psslong">Enter the length of the password</label>
+    <input type="number" id="psslong" value="3" min="3">
+    <div id="rad">
+        <label for="lcase">
+            <input type="checkbox" id="lcase" value="1"> Include lower case
+        </label><br>
+        <label for="ucase">
+            <input type="checkbox" id="ucase" value="2"> Include upper case
+        </label><br>
+        <label for="num">
+            <input type="checkbox" id="num" value="3"> Include numbers
+        </label><br>
+        <label for="sumb">
+            <input type="checkbox" id="sumb" value="4"> Include symbols
+        </label><br>
+    </div>
+    <button onclick="generatePass()">Generate Password</button><br><br>
+    <label id="res"><span id="passwordText"></span></label>
+</body>
+</html>

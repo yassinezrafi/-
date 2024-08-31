@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    margin: 10px;
+    background-color: antiquewhite;
+    border: 2px;
+}
+div.input{
+    font-size: 1.3em;
+}
+#res {
+    display: none;
+    background-color: rgb(172, 226, 226);
+    padding: 10px;
+    font-family: monospace; }
